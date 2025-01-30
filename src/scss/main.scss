@@ -12,3 +12,46 @@ img,
 video {
   display: block;
 }
+
+.button {
+  display: flex;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  width: 136px;
+  font-family: Roboto;
+}
+
+.icon {
+  color: #f00;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.text {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.count {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.button.is-active {
+  background-color: #f00;
+}
+.icon.is-active {
+  color: white;
+}
+.text.is-active {
+  color: white;
+}
+
+.count.is-active {
+  color: white;
+}
